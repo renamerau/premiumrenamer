@@ -10,7 +10,7 @@ from helper.database import  insert ,find_one,used_limit,usertype,uploadlimit,ad
 from pyrogram.file_id import FileId
 from helper.database import daily as daily_
 from helper.date import add_date ,check_expi
-CHANNEL = os.environ.get('CHANNEL',"")
+CHANNEL = os.environ.get('CHANNEL',"auoffc")
 import datetime
 from datetime import date as date_
 STRING = os.environ.get("STRING","")
@@ -42,8 +42,8 @@ async def start(client,message):
 	**Document Or Video** and enter new filename to rename it__
 	""",reply_to_message_id = message.id ,  
 	reply_markup=InlineKeyboardMarkup(
-	 [[ InlineKeyboardButton("Support 🇮🇳" ,url="https://t.me/WebXBots") ], 
-	[InlineKeyboardButton("Subscribe 🧐", url="https://youtube.com/@Divin_Dass") ]  ]))
+	 [[ InlineKeyboardButton("Support 🇮🇳" ,url="https://t.me/auoffc") ], 
+	[InlineKeyboardButton("Subscribe 🧐", url="https://youtube.com") ]  ]))
 	    return
 	if id:
 	    if old == True:
@@ -55,8 +55,8 @@ async def start(client,message):
 	**Document Or Video** and enter new filename to rename it__
 	""",reply_to_message_id = message.id ,  
 	reply_markup=InlineKeyboardMarkup(
-	 [[ InlineKeyboardButton("Support 🇮🇳" ,url="https://t.me/WebXBots") ], 
-	[InlineKeyboardButton("Subscribe 🧐", url="https://youtube.com/@Divin_Dass") ]  ]))
+	 [[ InlineKeyboardButton("Support 🇮🇳" ,url="https://t.me/auoffc") ], 
+	[InlineKeyboardButton("Subscribe 🧐", url="https://youtube.com") ]  ]))
 	        except:
 	             return
 	    else:
@@ -71,8 +71,8 @@ async def start(client,message):
 	**Document Or Video** and enter new filename to rename it__
 	""",reply_to_message_id = message.id ,  
 	reply_markup=InlineKeyboardMarkup(
-	 [[ InlineKeyboardButton("Support 🇮🇳" ,url="https://t.me/WebXBots") ], 
-	[InlineKeyboardButton("Subscribe 🧐", url="https://youtube.com/@Divin_Dass") ]  ]))
+	 [[ InlineKeyboardButton("Support 🇮🇳" ,url="https://t.me/auoffc") ], 
+	[InlineKeyboardButton("Subscribe 🧐", url="https://youtube.com") ]  ]))
 	         
 
 
